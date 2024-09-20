@@ -1,0 +1,30 @@
+﻿body {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items */
+    justify-content: space-between; /* Space between items */
+}
+
+/* Style for the student info panel */
+.student-info-panel {
+    border: 1px solid #ddd; /* Border around the panel */
+    padding: 50px; /* Padding inside the panel */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners for the panel */
+    margin: 20px; /* Margin around the panel */
+    flex: 1; /* Allow panels to grow and fill space */
+    min-width: 200px; /* Set a minimum width */
+}
+
+/* Style for each section inside the panel */
+.panel-section {
+    margin-bottom: 15px; /* Space between sections */
+    padding: 10px; /* Padding inside each section */
+    background-color: #fff; /* White background for each section */
+    border: 1px solid #ccc; /* Border around each section */
+    border-radius: 4px; /* Rounded corners for each section */
+}
+
+/* Optional: Style for the labels */
+.student-info-panel .asp-Label {
+    font-weight: bold; /* Make label text bold */
+}
